@@ -8,14 +8,14 @@
  *
  * Main module of the application.
  */
-angular
-  .module('portaApp', [
+angular.module('portaApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'lumx'
   ])
   .config(function ($routeProvider) {
     $routeProvider
