@@ -1,3 +1,10 @@
 body {
   color: #fff;
 }
+.cool {
+  text-shadow: -1px -1px 0 #f00, 1px -1px 0 #f00, -1px 1px 0 #f00, 1px 1px 0 #f00;
+  color: #fff;
+}
+.logo {
+  width: 50%;
+}
